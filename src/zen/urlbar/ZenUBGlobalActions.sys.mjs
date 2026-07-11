@@ -45,7 +45,7 @@ const globalActionsTemplate = [
   },
   {
     label: "Settings",
-    command: window => window.openPreferences(),
+    command: "cmd_zenOpenPreferences",
     icon: "chrome://browser/skin/zen-icons/settings.svg",
   },
   {
